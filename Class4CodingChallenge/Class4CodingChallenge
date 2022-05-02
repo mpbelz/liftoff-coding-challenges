@@ -1,0 +1,13 @@
+function LongestWord(sen) {
+    const strSplit = sen.split(' ');
+  
+    //initialize a variable to store the longest word
+    let longestWord = "";
+    for(let i = 0; i < strSplit.length; i++){
+      if(strSplit[i].length > longestWord.length){
+           longestWord = strSplit[i];
+       }
+    }
+   return longestWord
+}
+console.log(LongestWord("discard changes in working directory"));
