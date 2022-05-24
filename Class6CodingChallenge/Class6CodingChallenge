@@ -1,0 +1,10 @@
+function detectWord(str) {
+	let wanted = ""
+	for(let letter of str){
+		if (letter === letter.toLowerCase()){
+			wanted = wanted + letter
+		}
+	}
+	return wanted
+}
+console.log(detectWord("GHFTcIYDKUFKJFKUaYFUIYFUFtYUKY"));
