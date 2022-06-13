@@ -1,3 +1,8 @@
+
+CREATING A STRING OF LOWER CASE LETTERS IN AN MOSTLY
+UPPERCASE WORD
+
+
 function detectWord(str) {
 	let wanted = ""
 	for(let letter of str){

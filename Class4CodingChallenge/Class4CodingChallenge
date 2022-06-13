@@ -1,3 +1,7 @@
+
+FINDING THE LONGEST WORD IN A STRING OF WORDS
+
+
 function LongestWord(sen) {
     const strSplit = sen.split(' ');
   
